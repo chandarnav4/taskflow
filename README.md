@@ -53,8 +53,4 @@ npm start        # http://localhost:3000
 
 Drag-and-drop updates call `PATCH /api/cards/:id/move` with the target `listId` and new `order`, and the backend re-normalizes order values for both the source and destination lists.
 
-## Resume Bullet Points (suggested)
-- Built a Trello-style Kanban board with drag-and-drop task management using react-beautiful-dnd, backed by a REST API and MongoDB.
-- Designed a nested data model (Boards → Lists → Cards) with order-based positioning to support real-time drag-and-drop reordering.
-- Implemented optimistic UI updates on drag-and-drop with rollback on API failure for a smooth user experience.
 # taskflow
